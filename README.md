@@ -12,4 +12,3 @@
 
 ## Результат 
 ![Пример отрисовки страницы](https://github.com/bagvi/shedule/blob/master/shedule.png)
-# online_shedules
