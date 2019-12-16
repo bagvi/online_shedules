@@ -1,0 +1,122 @@
+@font-face {
+  font-family: sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+tml {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+body{
+	text-align: center;
+	background-color: black;
+}
+
+.wrapper{
+	margin: 0 auto;
+    	width: 100vw;
+	max-height: 100vh;
+}
+
+h1{
+	font-size: 2.5em;
+}
+
+
+h2{
+	margin: 0 auto;
+	letter-spacing: 0.5em;
+	font-size: 2em;
+	box-sizing: border-box;
+}
+
+.head{
+	height: 10vh;
+	color: #fff;
+	display: flex;
+	align-items: center;
+}
+
+.main{
+	height: 80vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	white-space: pre-line;
+	color: #FFFF00;
+		
+}
+
+.shedules{
+	box-sizing: border-box;
+	width: 50vw;
+	top: 50%;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	line-height: 1.50;
+}
+
+.vks{
+	box-sizing: border-box;
+	width: 50vw;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	line-height: 1.5;
+	letter-spacing: 0.2em;
+}
+
+.vks h1{
+	font-size: 3.2em;
+}
+
+.footer{
+	box-sizing: border-box;
+	height: 10vh;
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: nowrap;
+	letter-spacing: 0.09em;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+}
+
+.footer h3{
+	margin: 0 auto;
+	font-size: 2.1em;
+	box-sizing: border-box;
+	
+}
